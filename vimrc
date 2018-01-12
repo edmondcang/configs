@@ -28,6 +28,13 @@ nmap <Right> :tabn<CR>
 nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 
+nnoremap <F5> <ESC>:w<CR>:cexpr system("python " .  expand("%"))<CR>
+inoremap <F5> <ESC>:w<CR>:cexpr system("python " .  expand("%"))<CR>
+"noremap <silent> <F5> <ESC>:w<CR>:set splitright<CR>:vnew<CR>:r! python #<CR>
+
+"inoremap <silent> <c-c> <C-O>:stopinsert<CR>
+nnoremap <silent> <c-q> :q<CR>
+
 map <F3> :NERDTreeToggle<cr>
 map <F4> :GitGutterToggle<cr>
 
