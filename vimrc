@@ -34,6 +34,7 @@ inoremap <F5> <ESC>:w<CR>:cexpr system("python " .  expand("%"))<CR>
 
 "inoremap <silent> <c-c> <C-O>:stopinsert<CR>
 nnoremap <silent> <c-q> :q<CR>
+nnoremap <silent> <leader>rn :set splitright<CR>:vnew<CR>
 
 map <F3> :NERDTreeToggle<cr>
 map <F4> :GitGutterToggle<cr>

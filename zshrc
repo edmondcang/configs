@@ -103,3 +103,5 @@ export GITREPOS="$HOME/GitRepos"
 export PROJECTS="$HOME/Projects"
 
 export LANGUAGE="en:fr:de"
+
+stty -ixon
