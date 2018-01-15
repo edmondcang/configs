@@ -98,6 +98,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 alias suroot='sudo -E -s'
 alias hashrf='hash -rf'
 alias srczshrc='source ~/.zshrc'
+alias setresolv='echo "nameserver 8.8.4.4" > /etc/resolv.conf'
 
 export GITREPOS="$HOME/GitRepos"
 export PROJECTS="$HOME/Projects"
