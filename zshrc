@@ -100,8 +100,11 @@ alias hashrf='hash -rf'
 alias srczshrc='source ~/.zshrc'
 alias setresolv='echo "nameserver 8.8.4.4" > /etc/resolv.conf'
 
+export EDITOR="vim"
 export GITREPOS="$HOME/GitRepos"
 export PROJECTS="$HOME/Projects"
+export DOCUMENTS="$HOME/Documents"
+export DOWNLOADS="$HOME/Downloads"
 
 export LANGUAGE="en"
 
