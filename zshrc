@@ -128,4 +128,8 @@ export LIGHTCYAN='\033[1;36m'
 export WHITE='\033[1;37m'
 export NC='\033[0m'
 
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+
 stty -ixon
