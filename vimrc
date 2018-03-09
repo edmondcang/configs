@@ -1,3 +1,11 @@
+" Clone these sources to ~/.vim_runtime/sources_non_forked
+" vim-airline
+" onedark.vim
+" vim-javascript
+" vim-autoformat
+" YouCompleteMe
+" nerdtree-git-plugin
+
 " Amix Vim
 set runtimepath+=~/.vim_runtime
 
