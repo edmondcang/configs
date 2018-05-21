@@ -106,6 +106,7 @@ export PROJECTS="$HOME/Projects"
 export DOCUMENTS="$HOME/Documents"
 export DOWNLOADS="$HOME/Downloads"
 export MINICONDA="$HOME/miniconda3"
+export ANDROID_HOME="$HOME/Android/Sdk"
 
 export LANGUAGE="en"
 
