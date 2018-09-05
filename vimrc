@@ -131,7 +131,7 @@ if (empty($TMUX))
   endif
 endif
 syntax on
-colorscheme onedark
+colorscheme koehler
 
 "*****************************************************************************
 "" Convenience variables
